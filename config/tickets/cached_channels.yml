@@ -1,0 +1,5 @@
+---
+# Here channels that have been created by the ticket module are cached
+# So that they can be automatically deleted with a reaction role
+
+...
