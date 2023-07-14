@@ -27,7 +27,7 @@ class TerminalListener(threading.Thread):
 			user_input = input()
 			loop = self.bot.loop
 			
-			clear_input()
+			# clear_input()
 			
 			if user_input == 'info' or user_input == 'about':
 				async def show():
