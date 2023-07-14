@@ -15,7 +15,7 @@ class Embeds(Cog):
 		self._bot = bot
 
 	@commands.command()
-	@commands.has_permissions(administrator=True)
+	# @commands.has_permissions(administrator=True)
 	async def embed(self, ctx: Context, *, json_string):
 		await ctx.message.delete()
 		
